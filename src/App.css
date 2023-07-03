@@ -1,0 +1,24 @@
+
+body{
+  background-image: url("bgimage.jpg");
+}
+
+.container{
+  width: 100%;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: rgb(13, 29, 44);
+}
+
+
+h2{
+  color: white;
+}
+
+.grid{
+  display: grid;
+  margin-left: .15px;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 15px;
+  justify-content: center;
+}
